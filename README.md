@@ -6,6 +6,12 @@ To develop for LiteERP you need understand to: Module (API) and Page (ReactJS). 
 
 ## Generate 
 
+#### Hooks 
+
+
+<a href="./hook.md">Hook Document</a>
+
+
 #### Create Module 
 
 System support create module by command line 
