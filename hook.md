@@ -57,60 +57,60 @@ The Hook System is designed to:
 | CategoryProduct  | Create/Update/Delete/Index/Show   | HookPhase::RESPONSE    | Before, After   |
 | CategoryProduct  | Index                             | HookPhase::QUERY       | ON              |
 | CategoryProduct  | Create/Update/Delete/Index/Show   | HookPhase::VALIDATE    | ON              |
-| CategoryProduct  | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| CategoryProduct  | Search/Index/Show                 | HookPhase::UI          | ON              |
 | Customer         | Create/Update/Delete/Index/Show   | HookPhase::RESPONSE    | Before, After   |
 | Customer         | Index                             | HookPhase::QUERY       | ON              |
 | Customer         | Create/Update/Delete/Index/Show   | HookPhase::VALIDATE    | ON              |
-| Customer         | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| Customer         | Search/Index/Show                 | HookPhase::UI          | ON              |
 | CustomInvoiceIn  | Create/Update/Delete/Index/Show   | HookPhase::RESPONSE    | Before, After   |
 | CustomInvoiceIn  | Index                             | HookPhase::QUERY       | ON              |
 | CustomInvoiceIn  | Create/Update/Delete/Index/Show   | HookPhase::VALIDATE    | ON              |
-| CustomInvoiceIn  | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| CustomInvoiceIn  | Search/Index/Show                 | HookPhase::UI          | ON              |
 | CustomInvoiceOut | Create/Update/Delete/Index/Show   | HookPhase::RESPONSE    | Before, After   |
 | CustomInvoiceOut | Index                             | HookPhase::QUERY       | ON              |
 | CustomInvoiceOut | Create/Update/Delete/Index/Show   | HookPhase::VALIDATE    | ON              |
-| CustomInvoiceOut | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| CustomInvoiceOut | Search/Index/Show                 | HookPhase::UI          | ON              |
 | InvoiceIn        | Update/Index/Show                 | HookPhase::RESPONSE    | Before, After   |
 | InvoiceIn        | Index                             | HookPhase::QUERY       | ON              |
 | InvoiceIn        | Update/Index/Show                 | HookPhase::VALIDATE    | ON              |
-| InvoiceIn        | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| InvoiceIn        | Search/Index/Show                 | HookPhase::UI          | ON              |
 | InvoiceOut       | Update/Index/Show                 | HookPhase::RESPONSE    | Before, After   |
 | InvoiceOut       | Index                             | HookPhase::QUERY       | ON              |
 | InvoiceOut       | Update/Index/Show                 | HookPhase::VALIDATE    | ON              |
-| InvoiceOut       | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| InvoiceOut       | Search/Index/Show                 | HookPhase::UI          | ON              |
 | Order            | Create/Update/Index/Show          | HookPhase::RESPONSE    | Before, After   |
 | Order            | Index                             | HookPhase::QUERY       | ON              |
 | Order            | Create/Update/Index/Show          | HookPhase::VALIDATE    | ON              |
-| Order            | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| Order            | Search/Index/Show                 | HookPhase::UI          | ON              |
 | OrderShipping    | Create/Update/Index/Show          | HookPhase::RESPONSE    | Before, After   |
 | OrderShipping    | Index                             | HookPhase::QUERY       | ON              |
 | OrderShipping    | Create/Update/Show                | HookPhase::VALIDATE    | ON              |
-| OrderShipping    | Show                              | HookPhase::UI          | Before, After   |
+| OrderShipping    | Show                              | HookPhase::UI          | ON              |
 | Overview         | Index/Update                      | HookPhase::RESPONSE    | Before, After   |
 | PriceList        | Create/Update/Delete/Index/Show   | HookPhase::RESPONSE    | Before, After   |
 | PriceList        | Index                             | HookPhase::QUERY       | ON              |
 | PriceList        | Create/Update/Delete/Index/Show   | HookPhase::VALIDATE    | ON              |
-| PriceList        | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| PriceList        | Search/Index/Show                 | HookPhase::UI          | ON              |
 | Purchase         | Create/Update/Index/Show          | HookPhase::RESPONSE    | Before, After   |
 | Purchase         | Index                             | HookPhase::QUERY       | ON              |
 | Purchase         | Create/Update/Index/Show          | HookPhase::VALIDATE    | ON              |
-| Purchase         | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| Purchase         | Search/Index/Show                 | HookPhase::UI          | ON              |
 | Shipping         | Create/Update/Delete/Index/Show   | HookPhase::RESPONSE    | Before, After   |
 | Shipping         | Index                             | HookPhase::QUERY       | ON              |
 | Shipping         | Create/Update/Delete/Index/Show   | HookPhase::VALIDATE    | ON              |
-| Shipping         | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| Shipping         | Search/Index/Show                 | HookPhase::UI          | ON              |
 | StockIn          | Create/Update/Index/Show          | HookPhase::RESPONSE    | Before, After   |
 | StockIn          | Index                             | HookPhase::QUERY       | ON              |
 | StockIn          | Create/Update/Index/Show          | HookPhase::VALIDATE    | ON              |
-| StockIn          | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| StockIn          | Search/Index/Show                 | HookPhase::UI          | ON              |
 | StockOut         | Create/Update/Index/Show          | HookPhase::RESPONSE    | Before, After   |
 | StockOut         | Index                             | HookPhase::QUERY       | ON              |
 | StockOut         | Create/Update/Index/Show          | HookPhase::VALIDATE    | ON              |
-| StockOut         | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| StockOut         | Search/Index/Show                 | HookPhase::UI          | ON              |
 | Supplier         | Create/Update/Delete/Index/Show   | HookPhase::RESPONSE    | Before, After   |
 | Supplier         | Index                             | HookPhase::QUERY       | ON              |
 | Supplier         | Create/Update/Delete/Index/Show   | HookPhase::VALIDATE    | ON              |
-| Supplier         | Search/Index/Show                 | HookPhase::UI          | Before, After   |
+| Supplier         | Search/Index/Show                 | HookPhase::UI          | ON              |
 
 ## Make extensions
 
